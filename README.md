@@ -28,7 +28,7 @@ func main() {
 $ mkdir public
 $ echo "test" > public/test.txt
 $ go get
-$ go install bitbucket.org/tebeka/nrsc
+$ go install bitbucket.org/tebeka/nrsc/nrsc
 $ go build nrsc_example.go
 $ $GOPATH/bin/nrsc nrsc_example public
 $ ./nrsc_example
